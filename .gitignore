@@ -1,0 +1,15 @@
+/build/
+/dist/
+__pycache__/
+*.pyc
+*.elf
+*.map
+.env
+.env.*
+**/[Aa][Ii][Ss][Ee][Tt][Uu][Pp].[Tt][Xx][Tt]
+**/[Aa][Ii][Ss][Ee][Tt][Uu][Pp].[Nn][Ee][Ww]
+**/[Aa][Ii][Ss][Ee][Tt][Uu][Pp].[Bb][Aa][Kk]
+secrets.json
+*.pem
+*.key
+*.log

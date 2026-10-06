@@ -1,0 +1,15 @@
+# Plain ASCII. Replace placeholders and save as AISETUP.TXT on the card.
+name=Operator
+city=Example City
+country=GB
+timezone=UTC
+tz_rule=UTC0
+ssid=YOUR_WIFI_NAME
+wifi_password=YOUR_WIFI_PASSWORD
+api_key=YOUR_OPENAI_API_KEY
+model=gpt-4.1-mini
+voice=on
+robot=on
+volume=40
+radio_station=1
+frame_gap_us=4000

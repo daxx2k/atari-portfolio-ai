@@ -1,0 +1,19 @@
+name: Release checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  client-and-dsp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update && sudo apt-get install -y nasm g++
+      - run: python -m pip install -r tests/requirements.txt
+      - run: mkdir -p build && nasm -f bin portfolio/AI.ASM -o build/AI.COM && cmp build/AI.COM portfolio/AI.COM
+      - run: python tests/client_uart.py portfolio/AI.COM
+      - run: python tests/client_radio.py
+      - run: g++ -std=c++17 -O2 tests/dsp.cpp -o build/test-dsp && build/test-dsp
+      - run: python tools/check_secrets.py

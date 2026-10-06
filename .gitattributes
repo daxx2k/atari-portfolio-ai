@@ -1,0 +1,10 @@
+* text=auto
+*.asm text eol=lf
+*.ASM text eol=lf
+*.ino text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.COM binary
+*.bin binary

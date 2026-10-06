@@ -1,0 +1,10 @@
+{
+  "version": "0.4.15",
+  "channel": "prerelease",
+  "firmware": "0.4.15",
+  "portfolio_client": "0.4.14",
+  "board": "Waveshare ESP32-S3-CAM-OV5640 V1.1",
+  "arduino_esp32": "3.2.0",
+  "nasm": "3.01",
+  "fqbn": "esp32:esp32:esp32s3:CDCOnBoot=cdc,USBMode=hwcdc,FlashSize=16M,PSRAM=opi,PartitionScheme=huge_app"
+}

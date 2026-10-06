@@ -1,0 +1,19 @@
+{
+  "release": "0.4.15",
+  "firmware_compilation_passed": true,
+  "arduino_esp32": "3.2.0",
+  "flash_code_bytes": 1320606,
+  "static_ram_bytes": 60280,
+  "client_version": "0.4.14",
+  "client_bytes": 20108,
+  "client_rebuild_identical": true,
+  "client_uart_emulation_checks": 13,
+  "compact_radio_emulation_checks": 5,
+  "DSP_level_mute_peak_tests_passed": true,
+  "stable_sources_equivalent_except_line_endings": true,
+  "credential_pattern_and_known_private_value_audit_passed": true,
+  "audited_files": 59,
+  "private_config_included": false,
+  "new_physical_end_to_end_test": false,
+  "prior_operator_hardware_observations_documented": true
+}
