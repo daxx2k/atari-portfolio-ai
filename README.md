@@ -1,5 +1,7 @@
 # ChatGPT on Atari Portfolio
 
+[![Buy me a coffee](https://img.shields.io/badge/Buy_me_a_coffee-Support_my_projects-FFDD00?logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/daxx2k)
+
 **Bring a 1989 handheld computer into the AI era.**
 
 Type a question on the Atari Portfolio's original keyboard, read the reply on its LCD, and hear it spoken through an ESP32 speaker. You can also talk through a microphone, ask the AI to describe what the camera sees, or listen to synthwave and vaporwave radio.
