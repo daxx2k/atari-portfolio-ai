@@ -47,6 +47,14 @@ Speech and the robot voice effect are enabled by default, with speaker volume se
 
 See [Hardware and power](docs/HARDWARE.md) for wiring and assembly details.
 
+## Enclosure and printable label
+
+Download the [Portfolio AI Interface enclosure and label PDF on MakerWorld](https://makerworld.com/en/models/3441988-atari-portfolio-ai-interface-esp32-enclosure).
+
+The Bambu Studio project contains two build plates: one for the case, cover, ESP32 support and plain label backing, and one for the white BOOT/PWR buttons. The separate English PDF provides the pink-lettered label for printing on photo paper at actual size.
+
+The enclosure files are hosted on MakerWorld; firmware, DOS software and wiring documentation are maintained here on GitHub. The model uses **CC BY-NC 4.0**, as listed on MakerWorld; this does not change the code licensing described below.
+
 ## Get started
 
 The current prerelease is [v0.4.15](https://github.com/daxx2k/atari-portfolio-ai/releases/tag/v0.4.15). It pairs **ESP32 firmware 0.4.15** with **Portfolio client 0.4.14**; their version numbers are independent.
