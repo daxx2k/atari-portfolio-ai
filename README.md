@@ -4,6 +4,8 @@
 
 **Bring a 1989 handheld computer into the AI era.**
 
+[Watch the project video: I Turned an Atari Portfolio Into SKYNET](https://www.youtube.com/watch?v=itMtJ-JYX_g)
+
 Type a question on the Atari Portfolio's original keyboard, read the reply on its LCD, and hear it spoken through an ESP32 speaker. You can also talk through a microphone, ask the AI to describe what the camera sees, or listen to synthwave and vaporwave radio.
 
 The interface is entirely in English, with a Terminator-inspired SKYNET theme that addresses you as **Operator**.
@@ -47,7 +49,7 @@ See [Hardware and power](docs/HARDWARE.md) for wiring and assembly details.
 
 ## Get started
 
-The current private prerelease is [v0.4.15](https://github.com/daxx2k/atari-portfolio-ai/releases/tag/v0.4.15). It pairs **ESP32 firmware 0.4.15** with **Portfolio client 0.4.14**; their version numbers are independent.
+The current prerelease is [v0.4.15](https://github.com/daxx2k/atari-portfolio-ai/releases/tag/v0.4.15). It pairs **ESP32 firmware 0.4.15** with **Portfolio client 0.4.14**; their version numbers are independent.
 
 1. Follow [BUILD.md](docs/BUILD.md) to build and upload the ESP32 firmware, or use the prerelease binaries for the exact supported board.
 2. Copy `portfolio/AI.COM` to the Portfolio memory card.
@@ -81,7 +83,7 @@ See the [full command reference](docs/COMMANDS.md) for diagnostics, context comm
 
 ## Project status
 
-This is a working hardware prototype and a **private prerelease**, tested on the development assembly. It is not yet validated across other Portfolio units or ESP32 boards.
+This is a working hardware prototype and a **public prerelease**, tested on the development assembly. It is not yet validated across other Portfolio units or ESP32 boards.
 
 The camera preview is limited by the serial link and is **not real-time video**. AI replies, speech startup and radio reconnection also depend on Wi-Fi and service response times.
 
@@ -97,4 +99,4 @@ Read [Validation](docs/VALIDATION.md) for the checks and actual hardware feedbac
 
 Local checks cover the actual DOS binary in 16-bit emulation and the production audio DSP code. GitHub Actions checks the DOS build, client behavior, DSP and accidental credential patterns.
 
-No project-wide public license has been selected for this private prerelease. Bundled third-party code retains its original notices; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+No project-wide license has been selected. Public availability does not grant an open-source license. Bundled third-party code retains its original notices; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
